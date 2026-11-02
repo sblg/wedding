@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f4ee">
+  <title>Sara & Mads — 28 August 2027</title>
+  <meta name="description" content="Join Sara & Mads in Portugal on 28 August 2027 at Quinta do Alto.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+  <style>
+    :root{--paper:#f7f4ee;--ink:#35372f;--muted:#77796e;--olive:#747b61;--line:#dedbd1;--white:#fffefa}
+    *{box-sizing:border-box} html{scroll-behavior:smooth}
+    body{margin:0;background:var(--paper);color:var(--ink);font-family:"DM Sans",sans-serif;font-size:15px;line-height:1.75}
+    a{color:inherit;text-underline-offset:3px}
+    .topbar{position:sticky;top:0;z-index:10;background:rgba(247,244,238,.94);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+    .nav{max-width:1080px;margin:auto;padding:13px 24px;display:flex;align-items:center;justify-content:space-between;gap:16px}
+    .brand{font-family:"Playfair Display",serif;font-size:20px;letter-spacing:.04em;text-decoration:none;white-space:nowrap}
+    .navlinks{display:flex;gap:20px;align-items:center;flex-wrap:wrap}
+    .navlinks a,.lang button{font-size:11px;letter-spacing:.12em;text-transform:uppercase;text-decoration:none;color:var(--muted)}
+    .lang{display:flex;gap:5px}.lang button{border:0;background:transparent;padding:7px 5px;cursor:pointer}
+    .lang button.active{color:var(--ink);border-bottom:1px solid var(--olive)}
+    .hero{min-height:650px;display:grid;place-items:center;text-align:center;padding:70px 24px 82px;position:relative;overflow:hidden}
+    .hero:before{content:"";position:absolute;inset:20px 4.5%;border:1px solid rgba(116,123,97,.25);pointer-events:none}
+    .hero-inner{max-width:760px;position:relative}
+    .eyebrow{font-size:10px;letter-spacing:.24em;text-transform:uppercase;color:var(--olive)}
+    h1,h2,h3{font-family:"Playfair Display",serif;font-weight:400;line-height:1.2}
+    h1{font-size:clamp(56px,9vw,100px);margin:20px 0 4px;letter-spacing:-.045em}
+    .amp{font-style:italic;color:var(--olive)}
+    .hero-sub{font-family:"Playfair Display",serif;font-style:italic;font-size:clamp(21px,3vw,29px);margin:8px 0 26px}
+    .hero-date{letter-spacing:.18em;font-size:12px;text-transform:uppercase}
+    .hero-place{color:var(--muted);font-size:11px;letter-spacing:.2em;text-transform:uppercase;margin-top:10px}
+    .flourish{color:var(--olive);font-size:25px;margin:28px 0}
+    .intro{max-width:650px;margin:0 auto;text-align:center;padding:0 24px 80px}
+    .intro p{font-family:"Playfair Display",serif;font-size:22px;line-height:1.65}
+    main{max-width:900px;margin:auto;padding:0 24px 80px}
+    section{padding:65px 0;border-top:1px solid var(--line)}
+    .section-label{text-align:center;color:var(--olive);font-size:10px;letter-spacing:.22em;text-transform:uppercase}
+    h2{text-align:center;font-size:42px;margin:10px 0 28px}
+    .center{text-align:center}.lead{max-width:650px;margin:0 auto 30px;text-align:center;color:var(--muted)}
+    .schedule{max-width:600px;margin:30px auto 0}
+    .event{display:grid;grid-template-columns:95px 1fr;gap:20px;padding:17px 0;border-bottom:1px solid var(--line)}
+    .time{font-family:"Playfair Display",serif;font-size:21px;color:var(--olive)}
+    .event strong{font-weight:500}.event small{display:block;color:var(--muted);font-size:13px}
+    .details{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:32px}
+    .detail-card{background:var(--white);padding:26px;border:1px solid var(--line);text-align:center}
+    .detail-card h3{font-size:25px;margin:0 0 12px}
+    .detail-card p{margin:0 0 14px;color:var(--muted);font-size:14px}
+    .text-link{display:inline-block;color:var(--olive);font-size:12px;letter-spacing:.08em;text-transform:uppercase}
+    .note{max-width:650px;margin:18px auto 0;text-align:center;color:var(--muted);font-size:13px}
+    .rsvp-box{max-width:620px;margin:0 auto;background:var(--white);border:1px solid var(--line);padding:32px;text-align:center}
+    .rsvp-box p{color:var(--muted)}
+    .button{display:inline-block;background:var(--olive);color:white;text-decoration:none;padding:12px 24px;font-size:11px;letter-spacing:.13em;text-transform:uppercase;margin-top:12px}
+    footer{text-align:center;padding:45px 24px 55px;border-top:1px solid var(--line);color:var(--muted)}
+    footer .names{font-family:"Playfair Display",serif;font-size:28px;color:var(--ink)}
+    @media(max-width:700px){.nav{padding:10px 16px;flex-direction:column}.navlinks{justify-content:center;gap:13px}.navlinks a{font-size:10px}.hero{min-height:570px}.details{grid-template-columns:1fr}section{padding:48px 0}h2{font-size:36px}.intro p{font-size:20px}}
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="#home">Sara & Mads</a>
+      <div class="navlinks">
+        <a href="#day" data-i18n="nav_day">The day</a>
+        <a href="#travel" data-i18n="nav_travel">Travel & stay</a>
+        <a href="#rsvp" data-i18n="nav_rsvp">RSVP</a>
+        <div class="lang" aria-label="Choose language">
+          <button type="button" data-lang="en" class="active">EN</button>
+          <button type="button" data-lang="da">DA</button>
+          <button type="button" data-lang="pt">PT</button>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <div id="home" class="hero">
+    <div class="hero-inner">
+      <div class="eyebrow" data-i18n="eyebrow">Together with our favourite people</div>
+      <h1>Sara <span class="amp">&</span> Mads</h1>
+      <div class="hero-sub" data-i18n="hero_sub">We're getting married</div>
+      <div class="flourish">— ❧ —</div>
+      <div class="hero-date">28 · 08 · 2027</div>
+      <div class="hero-place">Quinta do Alto · Portugal</div>
+    </div>
+  </div>
+
+  <div class="intro">
+    <p data-i18n="welcome">We are so happy to celebrate this special day with the people we love most. Join us in Portugal for a day filled with love, good food, laughter, music and dancing.</p>
+    <div class="eyebrow" data-i18n="signoff">With love, Sara & Mads</div>
+  </div>
+
+  <main>
+    <section id="day">
+      <div class="section-label" data-i18n="day_label">Save the date</div>
+      <h2 data-i18n="day_title">The wedding day</h2>
+      <p class="lead" data-i18n="day_intro">Saturday, 28 August 2027. Both the ceremony and celebration will take place at Quinta do Alto.</p>
+      <div class="schedule">
+        <div class="event"><div class="time">14:00</div><div><strong data-i18n="event1">Guest arrival</strong><small data-i18n="event1_sub">Welcome to Quinta do Alto</small></div></div>
+        <div class="event"><div class="time">15:00</div><div><strong data-i18n="event2">Wedding ceremony</strong><small data-i18n="event2_sub">The moment we say “I do”</small></div></div>
+        <div class="event"><div class="time">16:00</div><div><strong data-i18n="event3">Drinks & reception</strong><small data-i18n="event3_sub">Time to celebrate together</small></div></div>
+        <div class="event"><div class="time">18:00</div><div><strong data-i18n="event4">Wedding dinner</strong><small data-i18n="event4_sub">Good food and lovely company</small></div></div>
+        <div class="event"><div class="time">22:00</div><div><strong data-i18n="event5">Dancing & celebration</strong><small data-i18n="event5_sub">Let's celebrate!</small></div></div>
+      </div>
+      <p class="note" data-i18n="schedule_note">These are the planned times for now. We may update the schedule as the day gets closer.</p>
+    </section>
+
+    <section id="travel">
+      <div class="section-label" data-i18n="travel_label">A little journey to Portugal</div>
+      <h2 data-i18n="travel_title">Location & travel</h2>
+      <div class="details">
+        <div class="detail-card">
+          <h3 data-i18n="venue_title">The venue</h3>
+          <p><strong>Quinta do Alto</strong><br>Estr. Monte Gordo 45<br>2600-065 Vila Franca de Xira<br>Portugal</p>
+          <a class="text-link" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Quinta%20do%20Alto%2C%20Estr.%20Monte%20Gordo%2045%2C%202600-065%20Vila%20Franca%20de%20Xira%2C%20Portugal" data-i18n="venue_map">Open venue in Google Maps ↗</a>
+        </div>
+        <div class="detail-card">
+          <h3 data-i18n="airport_title">Arriving by plane</h3>
+          <p data-i18n="airport_text">The nearest major airport is Lisbon Humberto Delgado Airport (LIS). From the airport, Vila Franca de Xira can be reached by taxi, rental car or public transport. Please check journey times before travelling.</p>
+          <a class="text-link" target="_blank" rel="noopener" href="https://www.google.com/maps/dir/?api=1&origin=Lisbon%20Airport&destination=Quinta%20do%20Alto%2C%20Vila%20Franca%20de%20Xira%2C%20Portugal" data-i18n="airport_map">Directions from Lisbon Airport ↗</a>
+        </div>
+        <div class="detail-card">
+          <h3 data-i18n="hotel_title">Where to stay</h3>
+          <p><strong>Lezíria Parque Hotel</strong><br>Av. Barranco de Cegos 22<br>2600-214 Vila Franca de Xira<br>Portugal</p>
+          <a class="text-link" target="_blank" rel="noopener" href="https://www.leziriaparquehotel.pt/" data-i18n="hotel_site">Hotel website ↗</a><br>
+          <a class="text-link" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Leziria%20Parque%20Hotel%2C%20Av.%20Barranco%20de%20Cegos%2022%2C%20Vila%20Franca%20de%20Xira%2C%20Portugal" data-i18n="hotel_map">Hotel in Google Maps ↗</a>
+        </div>
+        <div class="detail-card">
+          <h3 data-i18n="dress_title">What to wear</h3>
+          <p data-i18n="dress_text">There is no strict dress code. Wear something you feel comfortable and lovely in. Light summer outfits are a great choice for Portugal in August.</p>
+        </div>
+      </div>
+      <p class="note" data-i18n="hotel_note">We recommend arranging accommodation and travel in advance. Please check directly with the hotel for availability and rates.</p>
+    </section>
+
+    <section id="rsvp">
+      <div class="section-label" data-i18n="rsvp_label">We hope you can make it</div>
+      <h2 data-i18n="rsvp_title">Kindly RSVP</h2>
+      <div class="rsvp-box">
+        <p data-i18n="rsvp_text">Please let us know whether you can celebrate with us by our RSVP deadline. We can't wait to see you in Portugal!</p>
+        <p><strong data-i18n="rsvp_deadline">Please reply by: [Add RSVP deadline]</strong></p>
+        <a class="button" href="https://forms.google.com/" target="_blank" rel="noopener" data-i18n="rsvp_button">RSVP here</a>
+        <p class="note" data-i18n="rsvp_setup">The RSVP button is a placeholder for now. Add your Google Form link here before sharing the website with guests.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="names">Sara & Mads</div>
+    <div>28 · 08 · 2027</div>
+    <div class="eyebrow" style="margin-top:12px">Quinta do Alto · Portugal</div>
+  </footer>
+
+<script>
+const translations = {
+en: {
+nav_day:"The day",nav_travel:"Travel & stay",nav_rsvp:"RSVP",eyebrow:"Together with our favourite people",hero_sub:"We're getting married",
+welcome:"We are so happy to celebrate this special day with the people we love most. Join us in Portugal for a day filled with love, good food, laughter, music and dancing.",signoff:"With love, Sara & Mads",
+day_label:"Save the date",day_title:"The wedding day",day_intro:"Saturday, 28 August 2027. Both the ceremony and celebration will take place at Quinta do Alto.",
+event1:"Guest arrival",event1_sub:"Welcome to Quinta do Alto",event2:"Wedding ceremony",event2_sub:"The moment we say “I do”",event3:"Drinks & reception",event3_sub:"Time to celebrate together",event4:"Wedding dinner",event4_sub:"Good food and lovely company",event5:"Dancing & celebration",event5_sub:"Let's celebrate!",schedule_note:"These are the planned times for now. We may update the schedule as the day gets closer.",
+travel_label:"A little journey to Portugal",travel_title:"Location & travel",venue_title:"The venue",venue_map:"Open venue in Google Maps ↗",airport_title:"Arriving by plane",airport_text:"The nearest major airport is Lisbon Humberto Delgado Airport (LIS). From the airport, Vila Franca de Xira can be reached by taxi, rental car or public transport. Please check journey times before travelling.",airport_map:"Directions from Lisbon Airport ↗",hotel_title:"Where to stay",hotel_site:"Hotel website ↗",hotel_map:"Hotel in Google Maps ↗",dress_title:"What to wear",dress_text:"There is no strict dress code. Wear something you feel comfortable and lovely in. Light summer outfits are a great choice for Portugal in August.",hotel_note:"We recommend arranging accommodation and travel in advance. Please check directly with the hotel for availability and rates.",
+rsvp_label:"We hope you can make it",rsvp_title:"Kindly RSVP",rsvp_text:"Please let us know whether you can celebrate with us by our RSVP deadline. We can't wait to see you in Portugal!",rsvp_deadline:"Please reply by: [Add RSVP deadline]",rsvp_button:"RSVP here",rsvp_setup:"The RSVP button is a placeholder for now. Add your Google Form link here before sharing the website with guests."
+},
+da: {
+nav_day:"Dagen",nav_travel:"Rejse & overnatning",nav_rsvp:"Svar",eyebrow:"Sammen med vores yndlingsmennesker",hero_sub:"Vi skal giftes",
+welcome:"Vi glæder os utrolig meget til at fejre denne særlige dag med de mennesker, vi holder allermest af. Kom og vær med os i Portugal til en dag fyldt med kærlighed, god mad, grin, musik og dans.",signoff:"Kærlig hilsen, Sara & Mads",
+day_label:"Sæt kryds i kalenderen",day_title:"Bryllupsdagen",day_intro:"Lørdag den 28. august 2027. Både vielsen og festen finder sted på Quinta do Alto.",
+event1:"Gæsterne ankommer",event1_sub:"Velkommen til Quinta do Alto",event2:"Vielse",event2_sub:"Øjeblikket, hvor vi siger ja",event3:"Drinks & reception",event3_sub:"Tid til at fejre dagen sammen",event4:"Bryllupsmiddag",event4_sub:"God mad og hyggeligt selskab",event5:"Dans & fest",event5_sub:"Lad os fejre kærligheden!",schedule_note:"Dette er de foreløbige tidspunkter. Vi opdaterer muligvis programmet, når dagen nærmer sig.",
+travel_label:"En lille rejse til Portugal",travel_title:"Sted & transport",venue_title:"Feststedet",venue_map:"Åbn stedet i Google Maps ↗",airport_title:"Ankomst med fly",airport_text:"Den nærmeste større lufthavn er Lissabon Humberto Delgado Lufthavn (LIS). Fra lufthavnen kan I komme til Vila Franca de Xira med taxa, lejebil eller offentlig transport. Tjek rejsetiden inden afrejse.",airport_map:"Rute fra Lissabons lufthavn ↗",hotel_title:"Overnatning",hotel_site:"Hotellets hjemmeside ↗",hotel_map:"Hotellet i Google Maps ↗",dress_title:"Påklædning",dress_text:"Der er ingen fast dresscode. Kom i noget, du føler dig godt tilpas i. Let sommertøj er et godt valg til Portugal i august.",hotel_note:"Vi anbefaler, at I planlægger rejse og overnatning i god tid. Kontakt hotellet direkte for at høre om ledighed og priser.",
+rsvp_label:"Vi håber, du kan komme",rsvp_title:"Svar på invitationen",rsvp_text:"Fortæl os gerne, om du/I kan fejre dagen sammen med os, inden svarfristen. Vi glæder os til at se jer i Portugal!",rsvp_deadline:"Svar senest: [Indsæt svarfrist]",rsvp_button:"Svar her",rsvp_setup:"Svar-knappen er foreløbig en pladsholder. Indsæt linket til jeres Google Form, før hjemmesiden deles med gæsterne."
+},
+pt: {
+nav_day:"O dia",nav_travel:"Viagem & alojamento",nav_rsvp:"Confirmação",eyebrow:"Juntos com as pessoas que mais gostamos",hero_sub:"Vamos casar",
+welcome:"Estamos muito felizes por celebrar este dia especial com as pessoas que mais amamos. Juntem-se a nós em Portugal para um dia cheio de amor, boa comida, alegria, música e dança.",signoff:"Com carinho, Sara & Mads",
+day_label:"Marquem na agenda",day_title:"O dia do casamento",day_intro:"Sábado, 28 de agosto de 2027. Tanto a cerimónia como a celebração terão lugar na Quinta do Alto.",
+event1:"Chegada dos convidados",event1_sub:"Bem-vindos à Quinta do Alto",event2:"Cerimónia de casamento",event2_sub:"O momento em que dizemos “sim”",event3:"Bebidas e receção",event3_sub:"Tempo para celebrar juntos",event4:"Jantar de casamento",event4_sub:"Boa comida e ótima companhia",event5:"Festa e dança",event5_sub:"Vamos celebrar!",schedule_note:"Estes são os horários previstos por enquanto. Poderemos atualizar o programa à medida que a data se aproxima.",
+travel_label:"Uma viagem até Portugal",travel_title:"Localização & viagem",venue_title:"O espaço",venue_map:"Ver o espaço no Google Maps ↗",airport_title:"Chegada de avião",airport_text:"O aeroporto principal mais próximo é o Aeroporto Humberto Delgado, em Lisboa (LIS). A partir do aeroporto, podem chegar a Vila Franca de Xira de táxi, carro alugado ou transportes públicos. Confirmem os tempos de viagem antes de partir.",airport_map:"Direções a partir do Aeroporto de Lisboa ↗",hotel_title:"Onde ficar",hotel_site:"Site do hotel ↗",hotel_map:"Hotel no Google Maps ↗",dress_title:"O que vestir",dress_text:"Não existe um código de vestuário obrigatório. Escolham algo em que se sintam confortáveis e bem. Roupa leve de verão é uma ótima opção para Portugal em agosto.",hotel_note:"Recomendamos que organizem a viagem e o alojamento com antecedência. Contactem diretamente o hotel para confirmar disponibilidade e preços.",
+rsvp_label:"Esperamos que possam estar presentes",rsvp_title:"Confirmação de presença",rsvp_text:"Por favor, confirmem se poderão celebrar connosco até à data limite. Estamos ansiosos por vos receber em Portugal!",rsvp_deadline:"Confirmar até: [Adicionar data limite]",rsvp_button:"Confirmar presença",rsvp_setup:"O botão de confirmação é, por enquanto, um espaço reservado. Adicionem aqui o link do Google Forms antes de partilhar o site com os convidados."
+}
+};
+function setLanguage(lang){
+  const dict=translations[lang]||translations.en;
+  document.documentElement.lang=lang;
+  document.querySelectorAll("[data-i18n]").forEach(el=>{
+    const key=el.getAttribute("data-i18n");
+    if(dict[key]) el.textContent=dict[key];
+  });
+  document.querySelectorAll("[data-lang]").forEach(btn=>btn.classList.toggle("active",btn.dataset.lang===lang));
+  try{localStorage.setItem("wedding-language",lang)}catch(e){}
+}
+document.querySelectorAll("[data-lang]").forEach(btn=>btn.addEventListener("click",()=>setLanguage(btn.dataset.lang)));
+let initial="en";try{initial=localStorage.getItem("wedding-language")||"en"}catch(e){}
+setLanguage(initial);
+</script>
+</body>
+</html>
